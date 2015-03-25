@@ -231,6 +231,10 @@ public  class SwappingHolder extends MultiSelectorBindingHolder implements Selec
         return itemView.isActivated();
     }
 
+    @Override
+    public void onItemSelectionChanged(boolean isSelected) {
+    }
+
     /**
      * Activate/select this holder.
      * <p/>

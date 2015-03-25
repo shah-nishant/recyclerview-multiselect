@@ -51,4 +51,6 @@ public interface SelectableHolder {
      * @return Item id this holder is currently bound to.
      */
     long getItemId();
+
+    void onItemSelectionChanged(boolean isSelected);
 }

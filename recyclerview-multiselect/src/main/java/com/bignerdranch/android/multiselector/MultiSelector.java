@@ -203,6 +203,7 @@ public class MultiSelector {
 
         boolean isActivated = mSelections.get(holder.getPosition());
         holder.setActivated(isActivated);
+        holder.onItemSelectionChanged(isActivated);
     }
 
 
